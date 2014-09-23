@@ -1,0 +1,23 @@
+{
+    "name": "paoloumali/tpl",
+    "description": "",
+    "authors": [
+        {
+            "name": "Paolo Umali",
+            "email": "dev@paolo.ph"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Paoloumali\\Tpl\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
